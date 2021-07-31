@@ -80,4 +80,8 @@ dependencies {
 
     // DataStore
     implementation "androidx.datastore:datastore-preferences:$dataStore_version"
+
+    // retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
 }
